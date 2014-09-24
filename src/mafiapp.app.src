@@ -1,0 +1,13 @@
+{application, mafiapp,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  mnesia
+                 ]},
+  {mod, { mafiapp, []}},
+  {env, []}
+ ]}.
